@@ -8,8 +8,6 @@ const dbConnect=()=>{
 
     }).then((data)=>{
     console.log(`MongoDB is connected at host ${data.connection.host}`)
-    }).catch((error)=>{
-    console.log(error)
     })
 }
 
